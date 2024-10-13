@@ -1,6 +1,13 @@
 <main>
   <h1>Simple component demo</h1>
+  <p>I'm using this component below to change the high-score rendering in 
+    <a href="https://stevenvictor.net/number-munchers/">https://stevenvictor.net/number-munchers/</a> from just
+    text to something more fun.
+  </p>
   <p>Click the "increase" button.</p>
   <button type="button" class="btn btn-primary" (click)="increment()">Increase!</button>
   <app-heart value="{{getCurrentValue()}}"></app-heart>
+
+  <a href="https://github.com/smycynek/heart">https://github.com/smycynek/heart</a>
+  <p>Version {{getVersion()}}</p>
 </main>

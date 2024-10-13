@@ -1,7 +1,8 @@
 # Heart
 
-A simple component demo
+A simple component demo to later be used in `https://stevenvictor.net/number-munchers/`
 
+## Basics
 
 1.  Install NodeJS v22 from `https://nodejs.org/en/download/prebuilt-installer`
 
@@ -17,3 +18,6 @@ Note:
 * The app-component.ts file and related files
 * The "heart" folder and related files
 * How the app-component files reference the "heart" files
+
+## Live demo
+ `https://stevenvictor.net/heart`
